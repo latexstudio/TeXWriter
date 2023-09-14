@@ -1,2 +1,2 @@
 # TeXWriter
-New generation LaTeX Editor for  TeX users.
+New generation LaTeX Editor for  LaTeX users.
