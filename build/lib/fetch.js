@@ -41,7 +41,7 @@ async function fetchUrl(url, options, retries = 10, retryDelay = 1000) {
             startTime = new Date().getTime();
         }
         const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 30 * 1000);
+        const timeout = setTimeout(() => controller.abort(), 180 * 1000);
         try {
             const response = await (0, node_fetch_1.default)(url, {
                 ...options.nodeFetchOptions,
