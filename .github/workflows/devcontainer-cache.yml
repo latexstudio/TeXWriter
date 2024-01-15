@@ -23,7 +23,7 @@ jobs:
 
       - name: Azure CLI login
         id: az_login
-        uses: azure/login@92a5484dfaf04ca78a94597f4f19fea633851fa2
+        uses: azure/login@e15b166166a8746d1a47596803bd8c1b595455cf
         with:
           creds: ${{ secrets.AZ_ACR_CREDS }}
 
